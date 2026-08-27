@@ -84,3 +84,27 @@ print(mask)
 
 print("\nValues greater than 25:")
 print(numbers[mask])
+
+
+
+#random module
+np.random.seed(42)
+random_numbers=np.random.randint(1,101,size=10)
+print("Random integers:")
+print(random_numbers)
+
+#min max
+data = np.array([45, 12, 78, 34, 90, 23, 56])
+
+print("Original array:")
+print(data)
+
+print("\nMinimum:", np.min(data))
+print("Maximum:", np.max(data))
+print("Sum:", np.sum(data))
+print("Average:", np.mean(data))
+
+print("\nSorted array:")
+print(np.sort(data))
+
+
